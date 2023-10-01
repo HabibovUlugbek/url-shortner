@@ -4,7 +4,9 @@
   "description": "URL shortner",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build:docker":"docker build -t short-url .",
+    "publish:docker": "docker push short-url"
   },
   "author": "Habibov Ulugbek",
   "license": "ISC",
