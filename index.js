@@ -2,7 +2,7 @@ const express = require('express');
 const { connectDB } = require('./connect');
 const urlRoute = require('./routes/url');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 connectDB('mongodb://localhost:27017/url-shortener');
 
