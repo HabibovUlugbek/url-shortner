@@ -11,3 +11,6 @@ COPY . .
 EXPOSE 3000
 
 CMD ["nodemon", "index.js"]
+
+
+# Path: docker-compose.yml

@@ -1,0 +1,6 @@
+/dist
+/docs
+/prisma
+/coverage
+/node_modules
+/src/module/supplier/fill-database/paynet.js
