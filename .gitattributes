@@ -1,0 +1,13 @@
+* text=auto
+
+.dockerignore export-ignore
+.editorconfig export-ignore
+
+.eslintrc export-ignore
+.eslintignore export-ignore
+
+.prettierrc export-ignore
+.prettierignore export-ignore
+
+.gitignore export-ignore
+.gitattributes export-ignore
